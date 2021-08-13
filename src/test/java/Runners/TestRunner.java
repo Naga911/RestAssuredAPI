@@ -7,7 +7,7 @@ import org.junit.runner.RunWith;
 @RunWith(Cucumber.class)
 @CucumberOptions(
 		features = {"src/test/java/features/Validations.feature"},
-		glue = {"stepDefinations", "CreateValidation"},
+		glue = {"stepDefinations", "stepDefinations.CreateValidation"},
 		plugin = {"pretty",
 				"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:",
 				"timeline:test-output-thread/"
