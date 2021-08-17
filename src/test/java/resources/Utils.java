@@ -18,7 +18,7 @@ public class Utils {
 
     public static RequestSpecification req;
 
-    public RequestSpecification requestSpecification() throws IOException {
+    public static RequestSpecification requestSpecification() throws IOException {
 
         if (req == null) {
             PrintStream log = new PrintStream(new FileOutputStream("logging.txt"));

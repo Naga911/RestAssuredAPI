@@ -1,14 +1,14 @@
 $(document).ready(function() {
 CucumberHTML.timelineItems.pushArray([
   {
-    "id": "328bd933-a7a9-4ec3-bbde-5247e684e042",
+    "id": "fc47eecc-db0e-451f-8f81-ce3e5ca349fd",
     "feature": "Validating CreateorUpdate API",
     "scenario": "Verify if application is being added successfully to CreateorUpdate API",
-    "start": 1629200723153,
+    "start": 1629205287871,
     "group": 1,
     "content": "",
     "tags": "",
-    "end": 1629200730993,
+    "end": 1629205298349,
     "className": "passed"
   }
 ]);
