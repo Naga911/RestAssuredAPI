@@ -11,8 +11,9 @@ public class SerializeDeserialize {
 
     public static CreateApplication createApplication() throws IOException {
         String bodyString;
+        String path= System.getProperty("user.dir");
         //converting from json file to byte array and converting same to string
-        byte[] bytesFromJson = Files.readAllBytes(Paths.get("C:\\Users\\Nagaraj\\IdeaProjects\\RestAssuredAPI\\src\\main\\java\\pojo\\CreateOrUpdateAPI\\createapi.json"));
+        byte[] bytesFromJson = Files.readAllBytes(Paths.get(path+"\\src\\main\\java\\pojo\\CreateOrUpdateAPI\\createapi.json"));
         bodyString = new String(bytesFromJson);
 
         ObjectMapper objectMapper = new ObjectMapper();
