@@ -11,22 +11,7 @@ public class ApplicationProject {
     private int applicationProjectConstructionLicenseNumber;
     private int recordAction;
 
-  /*  public ApplicationProject()
-    {
 
-    }
-
-    public ApplicationProject(int id,String projectId,String applicationProjectDescription,double applicationProjectTotalArea,double applicationProjectLocationLatitude,double applicationProjectLocationLongitude,int applicationProjectConstructionLicenseNumber,int recordAction)
-    {
-        this.id=id;
-        this.projectId=projectId;
-        this.applicationProjectDescription=applicationProjectDescription;
-        this.applicationProjectTotalArea=applicationProjectTotalArea;
-        this.applicationProjectLocationLongitude=applicationProjectLocationLongitude;
-        this.applicationProjectLocationLatitude=applicationProjectLocationLatitude;
-        this.applicationProjectConstructionLicenseNumber=applicationProjectConstructionLicenseNumber;
-        this.recordAction=recordAction;
-    }*/
     public int getId() {
         return id;
     }

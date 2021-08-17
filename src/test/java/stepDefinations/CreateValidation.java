@@ -3,9 +3,9 @@ package stepDefinations;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-import io.restassured.builder.RequestSpecBuilder;
 import io.restassured.builder.ResponseSpecBuilder;
 import io.restassured.http.ContentType;
+import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
 
 import io.restassured.specification.RequestSpecification;
@@ -37,7 +37,7 @@ public class CreateValidation extends Utils {
     public void user_calls_with_post_http_request(String resource,String method) {
 
         APIResources resourceAPI=APIResources.valueOf(resource);
-        System.out.println(resourceAPI.getResource());
+        System.out.println("printing resource name:"+resourceAPI.getResource());
 
         resspec =new ResponseSpecBuilder().expectStatusCode(200).expectContentType(ContentType.JSON).build();
 
@@ -46,18 +46,25 @@ public class CreateValidation extends Utils {
         else if(method.equalsIgnoreCase("GET"))
             response =res.when().get(resourceAPI.getResource());
 
-
     }
 
     @Then("the API Call is success with status code {int}")
     public void the_api_call_is_success_with_status_code(Integer int1) {
-        assertEquals(response.getStatusCode(),200);
+        int statusCode = response.getStatusCode();
+        System.out.println("StatusCode :"+statusCode);
+        assertEquals(statusCode,200);
 
     }
-
+/*
     @Then("{string} in response body is {string}")
     public void in_response_body_is(String keyValue, String Expectedvalue) {
+       *//* String resp= response.asString();
+        JsonPath js= new JsonPath(resp);
+        System.out.println(js.get(keyValue).toString());*//*
+     //   assertEquals(js.get(keyValue).toString(),Expectedvalue);
+
         assertEquals(getJsonPath(response,keyValue),Expectedvalue);
-    }
+
+    }*/
 
 }

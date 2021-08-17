@@ -1,9 +1,13 @@
 package pojo.CreateOrUpdateAPI.ProjectOwner;
 
+import java.util.List;
+
 public class ProjectOwners {
     private String ownerType;
     private int recordAction;
-    private EstablishmentOwners establishmentOwners;
+
+
+    private List<EstablishmentOwners> EstablishmentOwners;
 
     public String getOwnerType() {
         return ownerType;
@@ -21,13 +25,15 @@ public class ProjectOwners {
         this.recordAction = recordAction;
     }
 
-    public EstablishmentOwners getEstablishmentOwners() {
-        return establishmentOwners;
+    public List<pojo.CreateOrUpdateAPI.ProjectOwner.EstablishmentOwners> getEstablishmentOwners() {
+        return EstablishmentOwners;
     }
 
-    public void setEstablishmentOwners(EstablishmentOwners establishmentOwners) {
-        this.establishmentOwners = establishmentOwners;
+    public void setEstablishmentOwners(List<pojo.CreateOrUpdateAPI.ProjectOwner.EstablishmentOwners> establishmentOwners) {
+        EstablishmentOwners = establishmentOwners;
     }
+
+
 
 
 }

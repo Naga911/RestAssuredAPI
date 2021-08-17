@@ -1,6 +1,6 @@
-package pojo.CreateOrUpdateAPI.AppBuilding;
+package pojo.CreateOrUpdateAPI.AppBuilding.Building;
 
-public class Buildings {
+public class ApplicationBuildings {
 
     private int id;
     private int buildingId;
@@ -14,6 +14,7 @@ public class Buildings {
     private int applicationBuildingNumberOfLifts;
     private int applicationBuildingTotalArea;
     private int recordAction;
+
 
     public int getId() {
         return id;

@@ -1,9 +1,19 @@
 package pojo.CreateOrUpdateAPI.BuildingEquipments;
 
+import java.util.List;
+
 public class ApplicationAssignBuildingEquipments {
 
     private int recordAction;
-    private AssignBuildingEquipments assignBuildingEquipments;
+    private List<AssignBuildingEquipments> assignBuildingEquipments;
+
+    public List<AssignBuildingEquipments> getAssignBuildingEquipments() {
+        return assignBuildingEquipments;
+    }
+
+    public void setAssignBuildingEquipments(List<AssignBuildingEquipments> assignBuildingEquipments) {
+        this.assignBuildingEquipments = assignBuildingEquipments;
+    }
 
     public int getRecordAction() {
         return recordAction;
@@ -13,11 +23,6 @@ public class ApplicationAssignBuildingEquipments {
         this.recordAction = recordAction;
     }
 
-    public AssignBuildingEquipments getAssignBuildingEquipments() {
-        return assignBuildingEquipments;
-    }
 
-    public void setAssignBuildingEquipments(AssignBuildingEquipments assignBuildingEquipments) {
-        this.assignBuildingEquipments = assignBuildingEquipments;
-    }
+
 }

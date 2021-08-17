@@ -1,3 +1,4 @@
+
 package pojo.CreateOrUpdateAPI.BuildingEquipments;
 
 public class ApplicationBuilding {
@@ -29,3 +30,4 @@ public class ApplicationBuilding {
         this.applicationBuildingNickname = applicationBuildingNickname;
     }
 }
+

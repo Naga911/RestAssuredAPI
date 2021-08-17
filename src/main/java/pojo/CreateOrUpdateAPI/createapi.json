@@ -3,46 +3,28 @@
   "serviceId":1,
   "channelId":1,
   "submitterId":11,
-  "submitterName":"nagaraj",
-  "applicationBuildings":{
-    "recordAction":0,
-    "applicationBuildings":[
-      {
-        "id":0,
-        "buildingId":null,
-        "applicationBuildingNickname":"BillaComplext",
-        "applicationBuildingHeight":"1250",
-        "applicationBuildingNumberOfFloors":"12",
-        "applicationBuildingNumberofBasementFloors":"2",
-        "applicationBuildingGroundFloorSize":"50",
-        "applicationBuildingNumberOfStaircases":"25",
-        "applicationBuildingNumberOfExits":"2",
-        "applicationBuildingNumberOfLifts":"2",
-        "applicationBuildingTotalArea":"6000",
-        "recordAction":1
-      }
-    ]
-  },
+  "submitterName":"Ranjith Billakanti",
+
   "submitter":{
     "id":0,
-    "submitterName":"nagaraj",
+    "submitterName":"Ranjith",
     "submitterType":"Establishment",
-    "recordAction":0
+    "recordAction":1
   },
   "applicationProject":{
     "id":0,
     "projectId":"",
-    "applicationProjectDescription":"TestProject_API",
+    "applicationProjectDescription":"TestProjectDescription",
     "applicationProjectTotalArea":"5000",
     "applicationProjectLocationLongitude":"1234.45",
-    "applicationProjectLocationLatitude":"1444.43",
+    "applicationProjectLocationLatitude":"1243.54",
     "applicationProjectConstructionLicenseNumber":"12345",
-    "recordAction":0
+    "recordAction":1
   },
   "contact":{
     "id":0,
     "mobile":"97098765",
-    "recordAction":0
+    "recordAction":1
   },
   "projectOwners":{
     "ownerType":"Establishment",
@@ -62,9 +44,9 @@
         "id":0,
         "buildingEquipmentSubCategoryId":null,
         "applicationBuilding":{
-          "applicationBuildingId":7,
+          "applicationBuildingId":24,
           "buildingId":null,
-          "applicationBuildingNickname":"BillaComplext"
+          "applicationBuildingNickname":"billaComplex"
         },
         "equipmentCategory":{
           "equipmentCategoryId":1,
@@ -81,5 +63,25 @@
       }
     ],
     "recordAction":1
+  },
+
+  "applicationBuildings":{
+    "recordAction":0,
+    "applicationBuildings":[
+      {
+        "id":0,
+        "buildingId":null,
+        "applicationBuildingNickname":"billaComplex",
+        "applicationBuildingHeight":"1250",
+        "applicationBuildingNumberOfFloors":"12",
+        "applicationBuildingNumberofBasementFloors":"2",
+        "applicationBuildingGroundFloorSize":"5000",
+        "applicationBuildingNumberOfStaircases":"1200",
+        "applicationBuildingNumberOfExits":"2",
+        "applicationBuildingNumberOfLifts":"2",
+        "applicationBuildingTotalArea":"6000",
+        "recordAction":1
+      }
+    ]
   }
 }

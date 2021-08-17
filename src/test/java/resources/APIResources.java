@@ -1,5 +1,5 @@
 package resources;
-//enum is special class in java which has collection of constants or  methods
+//enum is special class in java which has collection of constants or methods
 public enum APIResources {
 	
 	CreateOrUpdateAPI("/api/services/app/Application/CreateOrUpdateApplication");

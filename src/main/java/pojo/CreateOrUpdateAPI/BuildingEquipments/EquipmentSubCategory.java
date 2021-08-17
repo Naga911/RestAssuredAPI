@@ -1,3 +1,4 @@
+
 package pojo.CreateOrUpdateAPI.BuildingEquipments;
 
 public class EquipmentSubCategory {
@@ -5,6 +6,7 @@ public class EquipmentSubCategory {
     private int equipmentCategoryId;
     private String equipmentSubCategoryNameEnglish;
     private String equipmentSubCategoryNameArabic;
+
 
     public int getEquipmentSubCategoryId() {
         return equipmentSubCategoryId;
@@ -38,3 +40,4 @@ public class EquipmentSubCategory {
         this.equipmentSubCategoryNameArabic = equipmentSubCategoryNameArabic;
     }
 }
+

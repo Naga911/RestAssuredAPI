@@ -1,10 +1,9 @@
 package pojo.CreateOrUpdateAPI;
 
-import pojo.CreateOrUpdateAPI.AppBuilding.ApplicationBuild;
+import pojo.CreateOrUpdateAPI.AppBuilding.ApplicationBuildings;
 import pojo.CreateOrUpdateAPI.BuildingEquipments.ApplicationAssignBuildingEquipments;
 import pojo.CreateOrUpdateAPI.ProjectOwner.ProjectOwners;
 
-import static io.restassured.RestAssured.given;
 
 public class CreateApplication {
 
@@ -13,7 +12,7 @@ public class CreateApplication {
    private int channelId;
    private int submitterId;
    private String submitterName;
-   private ApplicationBuild applicationBuild; //AppBuilding package
+   private ApplicationBuildings applicationBuildings; //AppBuilding package
    private Submitter submitter;
    private ApplicationProject applicationProject;
    private Contact contact;
@@ -61,22 +60,6 @@ public class CreateApplication {
         this.submitterName = submitterName;
     }
 
-    public ApplicationBuild getApplicationBuilding() {
-        return applicationBuild;
-    }
-
-    public void setApplicationBuilding(ApplicationBuild applicationBuild) {
-        this.applicationBuild = applicationBuild;
-    }
-
-    public Submitter getSubmitter() {
-        return submitter;
-    }
-
-    public void setSubmitter(Submitter submitter) {
-        this.submitter = submitter;
-    }
-
     public ApplicationProject getApplicationProject() {
         return applicationProject;
     }
@@ -93,6 +76,15 @@ public class CreateApplication {
         this.contact = contact;
     }
 
+
+    public ApplicationBuildings getApplicationBuildings() {
+        return applicationBuildings;
+    }
+
+    public void setApplicationBuildings(ApplicationBuildings applicationBuildings) {
+        this.applicationBuildings = applicationBuildings;
+    }
+
     public ProjectOwners getProjectOwners() {
         return projectOwners;
     }
@@ -107,6 +99,14 @@ public class CreateApplication {
 
     public void setApplicationAssignBuildingEquipments(ApplicationAssignBuildingEquipments applicationAssignBuildingEquipments) {
         this.applicationAssignBuildingEquipments = applicationAssignBuildingEquipments;
+    }
+
+    public Submitter getSubmitter() {
+        return submitter;
+    }
+
+    public void setSubmitter(Submitter submitter) {
+        this.submitter = submitter;
     }
 
 

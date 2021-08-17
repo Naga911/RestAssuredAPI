@@ -2,28 +2,18 @@ package pojo.CreateOrUpdateAPI;
 
 public class Submitter {
 
-    private int submitterid;
+    private int id;
     private String submitterName;
     private String submitterType;
     private int recordAction;
 
-    /* public Submitter()
-     {
 
-     }
-     public Submitter(int submitterid,String submitterName,String submitterType,int recordAction)
-     {
-         this.submitterid=submitterid;
-         this.submitterName=submitterName;
-         this.submitterType=submitterType;
-         this.recordAction=recordAction;
-     }*/
-    public int getSubmitterid() {
-        return submitterid;
+    public int getid() {
+        return id;
     }
 
-    public void setSubmitterid(int submitterid) {
-        this.submitterid = submitterid;
+    public void setid(int id) {
+        this.id = id;
     }
 
     public String getSubmitterName() {

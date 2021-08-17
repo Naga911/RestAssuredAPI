@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="1" failures="0" name="Runners.TestRunner" time="3.89" errors="1" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="java.vm.version" value="10.0.2+13"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-10.0.2\bin"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\Nagaraj\IdeaProjects\RestAssuredAPI"/>
+    <property name="java.vm.vendor" value="&quot;Oracle Corporation&quot;"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\Nagaraj\IdeaProjects\RestAssuredAPI"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="java.runtime.version" value="10.0.2+13"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\Nagaraj\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="maven.ext.class.path" value="C:\Program Files\JetBrains\IntelliJ IDEA 2020.1.1\plugins\maven\lib\maven-event-listener.jar"/>
+    <property name="classworlds.conf" value="C:\Program Files\JetBrains\IntelliJ IDEA 2020.1.1\plugins\maven\lib\maven3\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-10.0.2\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\apache-maven-3.6.3\bin;D:\Softwares\nssm-2.24\nssm-2.24\win64\nssm.exe;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Users\Nagaraj\AppData\Local\atom\bin;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files (x86)\Pulse Secure\VC142.CRT\X64\;C:\Program Files (x86)\Pulse Secure\VC142.CRT\X86\;C:\strawberry\c\bin;C:\strawberry\perl\bin;C:\Program Files\Java\jdk-10.0.2\bin;;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Users\Nagaraj\scoop\shims;C:\Users\Nagaraj\AppData\Local\Microsoft\WindowsApps;C:\Users\Nagaraj\AppData\Roaming\npm;C:\Users\Nagaraj\AppData\Local\atom\bin;C:\Users\Nagaraj\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Users\Nagaraj\AppData\Local\GitHubDesktop\bin;%USERPROFILE%\AppData\Local\Microsoft\WindowsApps;;."/>
+    <property name="maven.conf" value="C:\Program Files\JetBrains\IntelliJ IDEA 2020.1.1\plugins\maven\lib\maven3/conf"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="54.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\Nagaraj"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="10"/>
+    <property name="user.name" value="Nagaraj"/>
+    <property name="java.class.path" value="C:\Program Files\JetBrains\IntelliJ IDEA 2020.1.1\plugins\maven\lib\maven3\boot\plexus-classworlds-2.6.0.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2020.1.1\plugins\maven\lib\maven3\boot\plexus-classworlds.license"/>
+    <property name="java.vm.specification.version" value="10"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version2020.1.1 test"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-10.0.2"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="idea.version2020.1.1" value="true"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="10.0.2"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Program Files\JetBrains\IntelliJ IDEA 2020.1.1\plugins\maven\lib\maven3"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.version.date" value="2018-07-17"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.java.com/bugreport/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="java.vendor.version" value="18.3"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="Validating CreateorUpdate API" name="Verify if application is being added successfully to CreateorUpdate API" time="3.89">
+    <error message="Cannot deserialize value of type `pojo.CreateOrUpdateAPI.ProjectOwner.EstablishmentOwners` from Array value (token `JsonToken.START_ARRAY`)
+ at [Source: (File); line: 50, column: 27] (through reference chain: pojo.CreateOrUpdateAPI.CreateApplication[&quot;projectOwners&quot;]-&gt;pojo.CreateOrUpdateAPI.ProjectOwner.ProjectOwners[&quot;establishmentOwners&quot;])" type="com.fasterxml.jackson.databind.exc.MismatchedInputException">com.fasterxml.jackson.databind.exc.MismatchedInputException: Cannot deserialize value of type `pojo.CreateOrUpdateAPI.ProjectOwner.EstablishmentOwners` from Array value (token `JsonToken.START_ARRAY`)
+ at [Source: (File); line: 50, column: 27] (through reference chain: pojo.CreateOrUpdateAPI.CreateApplication[&quot;projectOwners&quot;]-&gt;pojo.CreateOrUpdateAPI.ProjectOwner.ProjectOwners[&quot;establishmentOwners&quot;])
+	at com.fasterxml.jackson.databind.exc.MismatchedInputException.from(MismatchedInputException.java:59)
+	at com.fasterxml.jackson.databind.DeserializationContext.reportInputMismatch(DeserializationContext.java:1601)
+	at com.fasterxml.jackson.databind.DeserializationContext.handleUnexpectedToken(DeserializationContext.java:1375)
+	at com.fasterxml.jackson.databind.DeserializationContext.handleUnexpectedToken(DeserializationContext.java:1322)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer._deserializeFromArray(BeanDeserializer.java:640)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer._deserializeOther(BeanDeserializer.java:221)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserialize(BeanDeserializer.java:197)
+	at com.fasterxml.jackson.databind.deser.impl.MethodProperty.deserializeAndSet(MethodProperty.java:129)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.vanillaDeserialize(BeanDeserializer.java:324)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserialize(BeanDeserializer.java:187)
+	at com.fasterxml.jackson.databind.deser.impl.MethodProperty.deserializeAndSet(MethodProperty.java:129)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.vanillaDeserialize(BeanDeserializer.java:324)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserialize(BeanDeserializer.java:187)
+	at com.fasterxml.jackson.databind.deser.DefaultDeserializationContext.readRootValue(DefaultDeserializationContext.java:322)
+	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4593)
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3413)
+	at pojo.CreateOrUpdateAPI.SerializeDeserialize.createApplication(SerializeDeserialize.java:24)
+	at stepDefinations.CreateValidation.add_application_payload(CreateValidation.java:33)
+	at ✽.Add application payload(file:///C:/Users/Nagaraj/IdeaProjects/RestAssuredAPI/src/test/java/features/Validations.feature:4)
+</error>
+    <system-out>
+Scenario: Verify if application is being added successfully to CreateorUpdate API &amp;#27;[90m# src/test/java/features/Validations.feature:3&amp;#27;[0m
+  &amp;#27;[31mGiven &amp;#27;[0m&amp;#27;[31mAdd application payload&amp;#27;[0m                                                   &amp;#27;[90m# stepDefinations.CreateValidation.add_application_payload()&amp;#27;[0m
+      &amp;#27;[31mcom.fasterxml.jackson.databind.exc.MismatchedInputException: Cannot deserialize value of type `pojo.CreateOrUpdateAPI.ProjectOwner.EstablishmentOwners` from Array value (token `JsonToken.START_ARRAY`)
+ at [Source: (File); line: 50, column: 27] (through reference chain: pojo.CreateOrUpdateAPI.CreateApplication[&quot;projectOwners&quot;]-&gt;pojo.CreateOrUpdateAPI.ProjectOwner.ProjectOwners[&quot;establishmentOwners&quot;])
+	at com.fasterxml.jackson.databind.exc.MismatchedInputException.from(MismatchedInputException.java:59)
+	at com.fasterxml.jackson.databind.DeserializationContext.reportInputMismatch(DeserializationContext.java:1601)
+	at com.fasterxml.jackson.databind.DeserializationContext.handleUnexpectedToken(DeserializationContext.java:1375)
+	at com.fasterxml.jackson.databind.DeserializationContext.handleUnexpectedToken(DeserializationContext.java:1322)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer._deserializeFromArray(BeanDeserializer.java:640)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer._deserializeOther(BeanDeserializer.java:221)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserialize(BeanDeserializer.java:197)
+	at com.fasterxml.jackson.databind.deser.impl.MethodProperty.deserializeAndSet(MethodProperty.java:129)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.vanillaDeserialize(BeanDeserializer.java:324)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserialize(BeanDeserializer.java:187)
+	at com.fasterxml.jackson.databind.deser.impl.MethodProperty.deserializeAndSet(MethodProperty.java:129)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.vanillaDeserialize(BeanDeserializer.java:324)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserialize(BeanDeserializer.java:187)
+	at com.fasterxml.jackson.databind.deser.DefaultDeserializationContext.readRootValue(DefaultDeserializationContext.java:322)
+	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4593)
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3413)
+	at pojo.CreateOrUpdateAPI.SerializeDeserialize.createApplication(SerializeDeserialize.java:24)
+	at stepDefinations.CreateValidation.add_application_payload(CreateValidation.java:33)
+	at ✽.Add application payload(file:///C:/Users/Nagaraj/IdeaProjects/RestAssuredAPI/src/test/java/features/Validations.feature:4)
+&amp;#27;[0m
+  &amp;#27;[36mWhen &amp;#27;[0m&amp;#27;[36mUser calls &amp;#27;[0m&amp;#27;[36m&amp;#27;[1m&quot;CreateOrUpdateAPI&quot;&amp;#27;[0m&amp;#27;[36m with &amp;#27;[0m&amp;#27;[36m&amp;#27;[1m&quot;POST&quot;&amp;#27;[0m&amp;#27;[36m http request&amp;#27;[0m                    &amp;#27;[90m# stepDefinations.CreateValidation.user_calls_with_post_http_request(java.lang.String,java.lang.String)&amp;#27;[0m
+  &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mthe API Call is success with status code &amp;#27;[0m&amp;#27;[36m&amp;#27;[1m200&amp;#27;[0m                               &amp;#27;[90m# stepDefinations.CreateValidation.the_api_call_is_success_with_status_code(java.lang.Integer)&amp;#27;[0m
+  &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36m&amp;#27;[0m&amp;#27;[36m&amp;#27;[1m&quot;status&quot;&amp;#27;[0m&amp;#27;[36m in response body is &amp;#27;[0m&amp;#27;[36m&amp;#27;[1m&quot;OK&quot;&amp;#27;[0m                                           &amp;#27;[90m# stepDefinations.CreateValidation.in_response_body_is(java.lang.String,java.lang.String)&amp;#27;[0m
+</system-out>
+  </testcase>
+</testsuite>

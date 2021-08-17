@@ -1,11 +1,15 @@
 package pojo.CreateOrUpdateAPI.BuildingEquipments;
 
+import java.util.List;
+
 public class AssignBuildingEquipments {
     private int id;
     private int buildingEquipmentSubCategoryId;
     private ApplicationBuilding applicationBuilding;
     private EquipmentCategory equipmentCategory;
     private EquipmentSubCategory equipmentSubCategory;
+
+
     private int recordAction;
 
     public int getId() {
@@ -23,7 +27,6 @@ public class AssignBuildingEquipments {
     public void setBuildingEquipmentSubCategoryId(int buildingEquipmentSubCategoryId) {
         this.buildingEquipmentSubCategoryId = buildingEquipmentSubCategoryId;
     }
-
     public ApplicationBuilding getApplicationBuilding() {
         return applicationBuilding;
     }

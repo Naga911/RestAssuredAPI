@@ -2,19 +2,9 @@ package pojo.CreateOrUpdateAPI;
 
 public class Contact {
     private int id;
-    private int MobileNumber;
+    private int mobile;
     private int recordAction;
 
-    /*public Contact()
-    {
-
-    }
-    public Contact(int id,int MobileNumber,int recordAction)
-    {
-        this.id=id;
-        this.MobileNumber=MobileNumber;
-        this.recordAction=recordAction;
-    }*/
     public int getId() {
         return id;
     }
@@ -23,12 +13,12 @@ public class Contact {
         this.id = id;
     }
 
-    public int getMobileNumber() {
-        return MobileNumber;
+    public int getMobile() {
+        return mobile;
     }
 
-    public void setMobileNumber(int mobileNumber) {
-        MobileNumber = mobileNumber;
+    public void setMobile(int mobile) {
+        this.mobile = mobile;
     }
 
     public int getRecordAction() {
