@@ -2,7 +2,10 @@ package pojo;
 
 public class nb {
 
-    public void test() {
+    public static void main(String[] args)
+    {
+   
         System.out.println("DONT REMOVE THIS FILE");
     }
+
 }

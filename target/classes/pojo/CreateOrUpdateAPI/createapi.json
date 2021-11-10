@@ -1,0 +1,87 @@
+{
+  "applicationId":0,
+  "serviceId":1,
+  "channelId":1,
+  "submitterId":11,
+  "submitterName":"Ranjith Billakanti",
+
+  "submitter":{
+    "id":0,
+    "submitterName":"Ranjith",
+    "submitterType":"Establishment",
+    "recordAction":1
+  },
+  "applicationProject":{
+    "id":0,
+    "projectId":"",
+    "applicationProjectDescription":"TestProjectDescription",
+    "applicationProjectTotalArea":"5000",
+    "applicationProjectLocationLongitude":"1234.45",
+    "applicationProjectLocationLatitude":"1243.54",
+    "applicationProjectConstructionLicenseNumber":"12345",
+    "recordAction":1
+  },
+  "contact":{
+    "id":0,
+    "mobile":"97098765",
+    "recordAction":1
+  },
+  "projectOwners":{
+    "ownerType":"Establishment",
+    "recordAction":0,
+    "establishmentOwners":[
+      {
+        "id":0,
+        "establishmentLicense":"123",
+        "establishmentName":"est123",
+        "recordAction":1
+      }
+    ]
+  },
+  "applicationAssignBuildingEquipments":{
+    "assignBuildingEquipments":[
+      {
+        "id":0,
+        "buildingEquipmentSubCategoryId":null,
+        "applicationBuilding":{
+          "applicationBuildingId":24,
+          "buildingId":null,
+          "applicationBuildingNickname":"billaComplex"
+        },
+        "equipmentCategory":{
+          "equipmentCategoryId":1,
+          "equipmentCategoryNameEnglish":"Fire Safety",
+          "equipmentCategoryNameArabic":"السلامة من الحرائق"
+        },
+        "equipmentSubCategory":{
+          "equipmentSubCategoryId":1,
+          "equipmentCategoryId":1,
+          "equipmentSubCategoryNameEnglish":"Sprinklers",
+          "equipmentSubCategoryNameArabic":"الرشاشات"
+        },
+        "recordAction":1
+      }
+    ],
+    "recordAction":1
+  },
+
+  "applicationBuildings":{
+    "recordAction":0,
+    "applicationBuildings":[
+      {
+        "id":0,
+        "buildingId":null,
+        "applicationBuildingNickname":"billaComplex",
+        "applicationBuildingHeight":"1250",
+        "applicationBuildingNumberOfFloors":"12",
+        "applicationBuildingNumberofBasementFloors":"2",
+        "applicationBuildingGroundFloorSize":"5000",
+        "applicationBuildingNumberOfStaircases":"1200",
+        "applicationBuildingNumberOfExits":"2",
+        "applicationBuildingNumberOfLifts":"2",
+        "applicationBuildingTotalArea":"6000",
+        "recordAction":1
+      }
+    ]
+  }
+}

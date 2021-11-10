@@ -10,17 +10,12 @@ import com.aventstack.extentreports.reporter.ExtentKlovReporter;
 
 import org.junit.BeforeClass;
 
-import org.testng.ITestContext;
-import org.testng.ITestListener;
-import org.testng.ITestResult;
-
-
 import java.util.HashMap;
 import java.util.Map;
 
 
 
-public class ExtentReportManager implements ITestListener {
+public class ExtentReportManager  {
 
 
     private static Map<Integer, ExtentTest> extentTestMap = new HashMap<>();
@@ -55,8 +50,9 @@ public class ExtentReportManager implements ITestListener {
     public static void testStepHandle(String teststatus, ExtentTest test, String throwable) {
         switch (teststatus) {
             case "FAIL":
-               childTest.fail(throwable);
 
+               childTest.fail(MarkupHelper.createLabel("Test Case is Failedd : ", ExtentColor.RED));
+               childTest.fail(throwable);
                 break;
 
             case "PASS":
@@ -70,49 +66,5 @@ public class ExtentReportManager implements ITestListener {
         }
     }
 
-    private static String getTestMethodName(ITestResult iTestResult) {
-        return iTestResult.getMethod().getConstructorOrMethod().getName();
-    }
-    public static void setExtent(ExtentReports extent) {
-        ExtentReportManager.extent = extent;
-    }
 
-    @Override
-    public void onTestStart(ITestResult result) {
-        Log.info("I am in onStart method " + result.getName());
-        extent = ExtentReportManager.report();
-    }
-
-    @Override
-    public void onTestSuccess(ITestResult result) {
-        Log.info(getTestMethodName(result) + " test is succeed.");
-    }
-
-    @Override
-    public void onTestFailure(ITestResult result) {
-
-    }
-
-    @Override
-    public void onTestSkipped(ITestResult result) {
-        Log.info(getTestMethodName(result) + " test is skipped.");
-    }
-
-    @Override
-    public void onTestFailedButWithinSuccessPercentage(ITestResult result) {
-        Log.info("Test failed but it is in defined success ratio " + getTestMethodName(result));
-    }
-
-    @Override
-    public void onStart(ITestContext context) {
-        Log.info("I am in onStart method " + context.getName());
-
-        extent = ExtentReportManager.report();
-    }
-
-    @Override
-    public void onFinish(ITestContext context) {
-        Log.info("I am in onFinish method " + context.getName());
-        extent.flush();
-    }
 }

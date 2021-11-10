@@ -29,8 +29,6 @@ public class Utils {
             return req;
         }
         return req;
-
-
     }
 
 
@@ -43,10 +41,9 @@ public class Utils {
 
     }
 
-
     public String getJsonPath(Response response, String key) {
         String resp = response.asString();
-        System.out.println(resp);
+       // System.out.println(resp);
         JsonPath js = new JsonPath(resp);
         return js.get(key).toString();
     }
